@@ -1,0 +1,14 @@
+.header {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", san-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}

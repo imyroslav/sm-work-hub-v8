@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+
+.logo {
+    font-family: "Raleway", san-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    padding-left: 20px;
+}
+

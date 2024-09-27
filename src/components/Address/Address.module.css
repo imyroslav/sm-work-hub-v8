@@ -1,0 +1,16 @@
+.address {
+    padding-right: 20px;
+}
+
+.list {
+    color: aliceblue;
+    font-size: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+}
+
+.link {
+    color: aliceblue;
+}
