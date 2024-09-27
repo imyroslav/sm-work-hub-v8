@@ -4,7 +4,7 @@
 
 .list {
     color: aliceblue;
-    font-size: 48px;
+    font-size: 24px;
     display: flex;
     flex-direction: row;
     gap: 70px;
