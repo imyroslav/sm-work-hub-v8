@@ -17,7 +17,7 @@
 }
 
 .link:hover, link:focus {
-    color: chartreuse;
+    color: aqua;
 }
 
 
@@ -36,9 +36,7 @@
     
     }
     
-    .link {
-        color: aliceblue;
-    }
+    
 
 
 }
