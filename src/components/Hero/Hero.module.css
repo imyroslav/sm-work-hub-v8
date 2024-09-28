@@ -11,7 +11,7 @@
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.5),
             rgba(45, 47, 66, 0.5)),
-        url(/images/hero-cranes.jpg);
+        url(/images/m-hero-cranes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,3 +53,68 @@
     padding-left: 20px;
     padding-right: 500px;
 }
+
+
+
+
+@media screen and (min-width: 900px) {
+    
+
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        gap: 48px;
+    }
+
+    .section {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.5),
+                rgba(45, 47, 66, 0.5)),
+            url(/images/hero-cranes.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 150px;
+        padding-bottom: 250px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .h1 {
+        font-size: 60px;
+        margin-bottom: 100px;
+    }
+
+    .h3 {
+        font-size: 24px;
+    }
+
+    .link {
+        margin-top: 100px;
+        color: #FFFFFF;
+        background-color: #0084ff;
+        font-size: 18px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    .link:hover {
+        background-color: #084680;
+        cursor: pointer;
+    }
+
+    .h3-vacancy {
+        color: #434455;
+    }
+
+    .div-vacancy {
+        padding-left: 20px;
+        padding-right: 500px;
+    }
+
+}    
