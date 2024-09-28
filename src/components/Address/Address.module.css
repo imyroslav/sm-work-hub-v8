@@ -16,6 +16,9 @@
     color: aliceblue;
 }
 
+.link:hover {
+    color: chartreuse;
+}
 
 
 @media screen and (min-width: 900px) {
