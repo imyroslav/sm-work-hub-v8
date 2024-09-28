@@ -16,7 +16,7 @@
     color: aliceblue;
 }
 
-.link:hover {
+.link:hover, link:focus {
     color: chartreuse;
 }
 
